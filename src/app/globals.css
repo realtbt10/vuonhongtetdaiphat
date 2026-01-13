@@ -49,3 +49,23 @@ a {
 @import "tailwindcss";
 
 
+.slick-slide.slick-active.slick-current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+  180deg,
+  #fffbea 0%,
+  #fefce8 100%
+);
+  padding: 0 50px;
+}
+
+.slick-arrow::after,
+.slick-arrow::before {
+  color: red;
+}
+
+
+
+

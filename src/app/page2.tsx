@@ -4,7 +4,6 @@ import { getGalleryImages } from "@/lib/getImages";
 
 export default function Home() {
   const images = getGalleryImages()
-  console.log('images', images)
   return (
     <div className={styles.page}>
       <main className={styles.main}>

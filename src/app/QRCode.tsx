@@ -1,11 +1,7 @@
-import { useState } from "react";
 import { QRCodeCanvas } from "qrcode.react";
 
-export default function QRCodeComponent({ open, setOpen }: any) {
+export default function QRCodeComponent({ websiteUrl, open, setOpen }: any) {
   
-
-  const websiteUrl = "https://vuonhongtetdaiphat.vercel.app/"; 
-
   return (
     <>
 
