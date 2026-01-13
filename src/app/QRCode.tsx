@@ -4,7 +4,7 @@ import { QRCodeCanvas } from "qrcode.react";
 export default function QRCodeComponent({ open, setOpen }: any) {
   
 
-  const websiteUrl = "https://vuonnhaban.com"; 
+  const websiteUrl = "https://vuonhongtetdaiphat.vercel.app/"; 
 
   return (
     <>
