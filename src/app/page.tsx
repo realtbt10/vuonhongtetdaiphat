@@ -37,6 +37,7 @@ export default function GardenLandingPage() {
                 phone={phone} 
                 zaloLink={zaloLink} 
                 facebookLink={facebookLink} 
+                googleMapsLink={googleMapsLink}
                 colorSocialIcon={colorSocialIcon}
             />
             <HeroSection 

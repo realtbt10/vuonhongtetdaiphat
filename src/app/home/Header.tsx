@@ -7,7 +7,7 @@ import { SiZalo } from "react-icons/si";
 
 const styleTab = {padding: '4px 8px'}
 
-export default function Header({isScrolled,gardenName, phone, zaloLink, facebookLink, colorSocialIcon}: any) {
+export default function Header({isScrolled,gardenName, phone, zaloLink, facebookLink, googleMapsLink, colorSocialIcon}: any) {
     return (
         <header className={` fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-emerald-50'}`}>
             <div className=" mx-auto px-2 sm:px-6 lg:px-8">
@@ -37,6 +37,10 @@ export default function Header({isScrolled,gardenName, phone, zaloLink, facebook
                 <a href={`tel:${phone}`}
                     className="w-10 h-10 rounded-full bg-emerald-600 flex items-center justify-center text-white hover:scale-110 transition-transform">
                     <FaPhone size={16} color={colorSocialIcon}/>
+                </a>
+                <a href={googleMapsLink}
+                    className="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white hover:scale-110 transition-transform">
+                    <FaMapMarkerAlt size={16} color={colorSocialIcon}/>
                 </a>
                 </div>
             </div>
