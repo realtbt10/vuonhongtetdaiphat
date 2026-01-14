@@ -7,8 +7,8 @@ export default function Gallery({}: any) {
   
     const images = Array.from({length: 18}, (_, i) => {
         
-        if ([1,2,5,6,7,8,9,10,11, 12,13,14,15,16,17].includes(i)) {
-            const selectedArray = Array.from({length: 6}, (_, i) => i).filter((item) => ![1,2,5].includes(item))
+        if ([8,9,10,11, 12,13,14,15,16,17].includes(i)) {
+            const selectedArray = Array.from({length: 8}, (_, i) => i)
             const indexRandom = selectedArray[Math.floor(Math.random() * selectedArray.length)]
             return `/asset/img/rose${indexRandom + 1}.jpg`
         }
